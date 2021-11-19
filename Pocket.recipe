@@ -55,7 +55,7 @@ considered as TAG, so for each TAG you this value will be applied.
 """
 # CONFIGURATION ###########################################################
 TAGS = [] # [] or ['tag1', 'tag2']
-TAGS_EXCEPTIONS = [] # [] or ['tag3', 'tag4']
+TAGS_EXCEPTIONS = [nokindle, nk] # [] or ['tag3', 'tag4']
 SECTIONS_BY_DOMAIN = False
 SECTIONS_BY_DOMAIN_USING_TLD = False
 INCLUDE_UNTAGGED = True
@@ -64,7 +64,7 @@ MAX_ARTICLES_PER_FEED = 30
 OLDEST_ARTICLE = 365
 SORT_METHOD = 'newest'
 SORT_WITHIN_TAG_BY_TITLE = False
-TO_PULL = 'unread'
+TO_PULL = 'all'
 TITLE_WITH_TAGS = False
 ALLOW_DUPLICATES = True
 USE_GLOBAL_CONFIG = False
